@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.todo-app h1{
+  text-align: center;
+  margin-bottom: 15px;
+}
+.function{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 15px;
+}
+.function button{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+
+
+.delete-button{
+  background-color: rgb(255, 98, 98);
+  border: none;
+  font-size: 16px;
+  padding: 5px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 15px;
+  color: white;
+}
+
+
